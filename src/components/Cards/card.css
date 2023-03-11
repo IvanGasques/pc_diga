@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.55px;
+  width: 24%;
+  height: 410px;
+  background: #ffffff;
+  border-radius: 8px;
+  justify-content: end;
+}
+.name{
+    font-weight: 700;
+font-size: 28.4082px;
+line-height: 18px;
+color: #1D1D1F;
+padding: 0 0 28px 24px;
+}
+.name1{
+    padding:24px 0;
+}
+.image{
+   display:flex;
+   flex-direction: column;
+  
+}
+.colors{
+    display: flex;
+    flex-direction: row;
+    padding:16px 0;
+    width: 17.54px;
+height: 17.54px;
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+  
+  }
+
+  .cards {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards {
+    width: calc(50% - 8px);
+  }
+}
+
+/* @media only screen and (max-width: 1200px) {
+    .container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .cards {
+      width: calc(33.33% - 8px);
+    }
+  } */
