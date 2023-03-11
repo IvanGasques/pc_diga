@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "./components/Banner/Banner";
 import Categorias from "./components/Categorias/Categorias";
 import './App.css';
-import Destaques from "./components/Destaque/Destaques";
+import Feature from "./components/Feature/Feature";
 import Cards from "./components/Cards/Cards";
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
    <Banner></Banner>
    <Categorias/>
    <Cards/>
-   <Destaques/>
+   <Feature/>
     </div>
   );
 }

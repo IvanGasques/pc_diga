@@ -1,0 +1,129 @@
+.title {
+  width: 100%;
+  height: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  display: flex;
+  color: #1d1d1f;
+  padding: 100px 0 40px;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.see {
+  font-size: 20px;
+  color: #ff4d23;
+}
+.cardsFeature {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 3.55px;
+  width: 249.79px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 8px;
+  justify-content: end;
+}
+
+.Featureimage {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.Featurename {
+  font-family: "Lato";
+  font-size: 14px;
+  color: #000000;
+  line-height: 21px;
+  padding: 0 12px;
+}
+
+.Featuredescription {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 10.7498px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #8d929b;
+  padding: 0 12px;
+}
+
+.minidescription {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 21px;
+  align-items: center;
+  color: #000000;
+  padding: 0 12px;
+}
+
+.stock {
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+}
+
+.textstock {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  color: #52a35a;
+  padding: 0 4px;
+}
+
+.delivery {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5414px;
+  line-height: 16px;
+  color: #52a35a;
+  padding: 0 29px;
+}
+
+.price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21.4995px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ff4d23;
+  padding: 4px 12px;
+}
+
+.whishlistCompare {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding: 0 12px;
+}
+.whishlistCompare img{
+  padding:0px 1px 8px 3px;
+
+}
+
+.textCompare, .textwish{
+padding:0px 3px 8px 3px;
+align-items:center;
+}
