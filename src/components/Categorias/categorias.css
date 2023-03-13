@@ -7,6 +7,7 @@
   width:100%;
   height: 114px;
   position: absoluite;
+  margin:44px 0;
 }
 .nome {
   display: flex;
@@ -22,7 +23,7 @@
   .categorias {
     width:100%;
 }
-.teste{
+.categoria{
   width:100%;
 }
 }

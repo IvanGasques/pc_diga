@@ -1,32 +1,34 @@
-import React from 'react'
-import { FeatureList } from './featureList'
+import React,{useRef} from 'react'
 import arrow from '../assets/feature/arrowcoolicon.png'
-
+import ModelCard from './ModelCard'
+import { Link } from 'react-router-dom'
+import count from '../assets/feature/Ativo 3 (2) 2.png'
 import './feature.css'
 
-const Feature = () => {
+const Feature = (props) => {
+  
   return (
     <div>
       <div className='title'>Em destaque<div className='see'>Ver Mais<img src={arrow} alt='arrow' /></div></div>
-      <div className='cardsFeature'>
-        {FeatureList.map((feature, idx) => (
-          <div className='card' key={idx}>
-            <div className='Featureimage'><img src={feature.image} alt='' /></div>
-            <div className='Featurename'>{feature.name}</div>
-            <div className='Featuredescription'>{feature.description}</div>
-            <div className='minidescription'>{feature.miniDescription}</div>
-            <div className='stock' >{feature.stock?<> <img src={feature.stock} alt='icons' /> <span className='textstock'>Em Stock</span></> : null }</div>
-            <div className='delivery' >{feature.delivery}</div>
-            <div className='price' >{feature.price}</div>
-            <div className='whishlistCompare'>
-              <><img src={feature.wish} alt='wish' /> <span className='textwish'>Wishlist</span></>
-              <><img src={feature.compare} alt='compare' /><span className='textCompare'>Comparar</span></>
-            </div>
-          </div>
-        ))}
-      </div>
+      <Link to="/campanhas" id='link'>
+      
+       <div className='cardsFeature' ><div className='card' id='carde'><img src={count} width='105%' alt='count'></img></div>
+        {props.features.map((feature, idx) => (
+        <ModelCard 
+          key={idx}
+          image={feature.image}
+          name={feature.name}
+          description={feature.description}
+          miniDescription={feature.miniDescription}
+          stock={feature.stock}
+          delivery={feature.delivery}
+          price={feature.price}
+          wish={feature.wish}
+          compare={feature.compare}
+        />
+      ))}
+      </div></Link>
     </div>
   )
 }
-
 export default Feature;

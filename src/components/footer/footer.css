@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  align-items: baseline;
+  height: 400.97px;
+  width: 100%;
+  padding:40px 0 0 0;
+}
+.footer.dark-mode{
+  background-color: #1d1d1f;
+ color: #fff; 
+}
+
+.infoCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  width:1250px
+}
+.information,
+.faq,
+.loja,
+.pcdiga {
+  width: 28%;
+  padding: 40px 60px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.textlogo {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+  padding: 0 0 20px 0px;
+}
+
+.payment {
+  padding: 140px 0 0 0;
+}
+.navegation{
+    margin: 0 0 0 0px;
+}
+.footer-receive{
+    position: absolute;
+    left: 0%;
+    width:100%;
+    transform: translateY(-15%);
+}
