@@ -1,0 +1,48 @@
+.receive {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  margin: 30px;
+  align-items: center;
+  padding:0 0 300px 0;
+  
+}
+
+.containerReceive {
+  background: #ff4d23;
+  border-radius: 6.29963px;
+  width: 70%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.label0 {
+  padding: 24px 40px 24px 0;
+  weight: auto;
+  margin:0 160px 0 0;
+}
+.label {
+  ont-weight: 700;
+  font-size: 12px;
+  line-height: 3px;
+  color: #ffffff;
+}
+.label2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 3px;
+  color: #ffffff;
+}
+
+.receiveInput {
+  width: 380px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 4.5px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #c4c4c4;
+  padding: 4px 16px 4px 30px;
+}
